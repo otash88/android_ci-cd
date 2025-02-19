@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("uz.gita.androidcicd", appContext.packageName)
+        assertEquals("uz.gita.androidcicdotash", appContext.packageName)
     }
 }
